@@ -1,6 +1,6 @@
 {
   "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json",
-  "contentVersion": "1.0.0.1",
+  "contentVersion": "1.0.0.0",
   "parameters": {
     "adminUserName": {
       "type": "string",
@@ -132,9 +132,9 @@
     },
     "numberOfDataNodes": {
       "type": "int",
-      "defaultValue": 3,
+      "defaultValue": 1,
       "metadata": {
-        "description": "Number of data nodes for Prod (defaults to 3)"
+        "description": "Number of data nodes for Prod (defaults to 1)"
       }
     },
     "vmSize": {
